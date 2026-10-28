@@ -120,6 +120,12 @@
   .link-underline:hover::after {
     @apply scale-x-100;
   }
+
+  /* Expand the tap area of text-only calls to action without moving them. */
+  .link-underline::before {
+    content: '';
+    @apply absolute -inset-x-2 -inset-y-3;
+  }
 }
 
 @utility container-page {
@@ -176,6 +182,52 @@
 .reveal[data-visible='true'] {
   opacity: 1;
   transform: none;
+}
+
+/* Audio progress slider: 24px hit area, 6px visual track, visible gold thumb. */
+.range-track {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 24px;
+  width: 100%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.range-track::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 999px;
+  background: rgb(250 247 241 / 0.28);
+}
+
+.range-track::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: -4px;
+  height: 14px;
+  width: 14px;
+  border: 2px solid var(--color-cream);
+  border-radius: 999px;
+  background: var(--color-gold);
+}
+
+.range-track::-moz-range-track {
+  height: 6px;
+  border-radius: 999px;
+  background: rgb(250 247 241 / 0.28);
+}
+
+.range-track::-moz-range-thumb {
+  height: 14px;
+  width: 14px;
+  border: 2px solid var(--color-cream);
+  border-radius: 999px;
+  background: var(--color-gold);
+}
+
+.range-track:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 4px;
 }
 
 @media (prefers-reduced-motion: reduce) {

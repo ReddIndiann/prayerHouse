@@ -47,7 +47,7 @@ export function BrandMark({
         </span>
         {!compact && (
           <span
-            className={`mt-1 text-[0.6rem] font-semibold tracking-[0.32em] uppercase ${
+            className={`mt-1 text-[0.66rem] font-semibold tracking-[0.26em] uppercase ${
               isLight ? 'text-cream/55' : 'text-muted'
             }`}
           >

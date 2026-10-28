@@ -60,7 +60,7 @@ export function Ministries() {
                   </div>
 
                   <div className={reversed ? 'lg:pr-4' : 'lg:pl-4'}>
-                    <p className="text-[0.62rem] font-semibold tracking-[0.22em] text-brand uppercase">
+                    <p className="text-[0.7rem] font-semibold tracking-[0.22em] text-brand uppercase">
                       {ministry.tagline}
                     </p>
                     <h2 className="mt-2 text-3xl text-ink">{ministry.name}</h2>
@@ -70,7 +70,7 @@ export function Ministries() {
                       {ministry.focus.map((item) => (
                         <li
                           key={item}
-                          className="inline-flex items-center gap-1.5 rounded-full bg-sand px-3 py-1.5 text-[0.68rem] font-medium text-ink-soft"
+                          className="inline-flex items-center gap-1.5 rounded-full bg-sand px-3 py-1.5 text-[0.72rem] font-medium text-ink-soft"
                         >
                           <Check className="size-3 text-brand" aria-hidden="true" /> {item}
                         </li>

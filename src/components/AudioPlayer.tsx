@@ -82,7 +82,7 @@ export function AudioPlayer() {
       />
 
       <div className="bg-gradient-to-br from-brand-dark to-brand p-6 text-cream sm:p-8">
-        <p className="text-[0.62rem] font-semibold tracking-[0.24em] text-gold-soft uppercase">
+        <p className="text-[0.7rem] font-semibold tracking-[0.24em] text-gold-soft uppercase">
           Podcast · Now playing
         </p>
         <h3 className="mt-3 font-display text-2xl leading-snug text-cream sm:text-3xl">
@@ -134,9 +134,9 @@ export function AudioPlayer() {
                 audio.currentTime = time
                 setCurrent(time)
               }}
-              className="h-1.5 w-full cursor-pointer appearance-none rounded-full bg-cream/25 accent-gold"
+              className="range-track"
             />
-            <div className="mt-2 flex justify-between text-[0.68rem] tabular-nums text-cream/55">
+            <div className="mt-2 flex justify-between text-[0.72rem] tabular-nums text-cream/55">
               <span>{formatTime(current)}</span>
               <span>{formatTime(duration)}</span>
             </div>
@@ -189,7 +189,7 @@ export function AudioPlayer() {
                 <span className="block text-xs text-muted">{item.speaker}</span>
               </span>
               {isActive && (
-                <span className="text-[0.6rem] font-semibold tracking-[0.16em] text-brand uppercase">
+                <span className="text-[0.7rem] font-semibold tracking-[0.16em] text-brand uppercase">
                   Playing
                 </span>
               )}

@@ -84,7 +84,7 @@ export function WeeklyActivities() {
                 <div className="flex items-start justify-between gap-4">
                   <div>
                     <p
-                      className={`text-[0.62rem] font-semibold tracking-[0.24em] uppercase ${
+                      className={`text-[0.7rem] font-semibold tracking-[0.24em] uppercase ${
                         index === 0 ? 'text-gold-soft' : 'text-brand'
                       }`}
                     >
@@ -113,7 +113,7 @@ export function WeeklyActivities() {
                 </p>
                 {service.note && (
                   <p
-                    className={`mt-5 inline-flex rounded-full px-3 py-1.5 text-[0.65rem] font-semibold tracking-wide ${
+                    className={`mt-5 inline-flex rounded-full px-3 py-1.5 text-[0.7rem] font-semibold tracking-wide ${
                       index === 0 ? 'bg-gold/20 text-gold-soft' : 'bg-brand/10 text-brand'
                     }`}
                   >

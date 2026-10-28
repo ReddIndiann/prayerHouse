@@ -28,7 +28,7 @@ export function Footer() {
                   target="_blank"
                   rel="noreferrer"
                   aria-label={`Prayer House Church on ${social.label}`}
-                  className="grid size-9 place-items-center rounded-full border border-cream/15 text-cream/70 transition hover:border-gold hover:text-gold"
+                  className="grid size-10 place-items-center rounded-full border border-cream/15 text-cream/70 transition hover:border-gold hover:text-gold"
                 >
                   <SocialIcon name={social.label} />
                 </a>
@@ -41,10 +41,13 @@ export function Footer() {
           <h3 className="text-[0.7rem] font-semibold tracking-[0.24em] text-gold uppercase">
             Explore
           </h3>
-          <ul className="mt-5 space-y-3 text-sm">
+          <ul className="mt-3 space-y-0.5 text-sm sm:mt-5 sm:space-y-3">
             {navLinks.map((link) => (
               <li key={link.to}>
-                <Link to={link.to} className="text-cream/65 transition hover:text-cream">
+                <Link
+                  to={link.to}
+                  className="inline-flex min-h-9 items-center text-cream/65 transition hover:text-cream sm:min-h-0"
+                >
                   {link.label}
                 </Link>
               </li>
@@ -56,10 +59,13 @@ export function Footer() {
           <h3 className="text-[0.7rem] font-semibold tracking-[0.24em] text-gold uppercase">
             Resources
           </h3>
-          <ul className="mt-5 space-y-3 text-sm">
+          <ul className="mt-3 space-y-0.5 text-sm sm:mt-5 sm:space-y-3">
             {resourceLinks.map((link) => (
               <li key={link.to}>
-                <Link to={link.to} className="text-cream/65 transition hover:text-cream">
+                <Link
+                  to={link.to}
+                  className="inline-flex min-h-9 items-center text-cream/65 transition hover:text-cream sm:min-h-0"
+                >
                   {link.label}
                 </Link>
               </li>
@@ -82,12 +88,15 @@ export function Footer() {
             </li>
             <li className="flex gap-3">
               <Phone className="mt-0.5 size-4 shrink-0 text-gold" aria-hidden="true" />
-              <a href={site.phoneHref} className="hover:text-cream">
+              <a href={site.phoneHref} className="inline-flex min-h-9 items-center hover:text-cream sm:min-h-0">
                 {site.phone}
               </a>
             </li>
             <li className="pl-7">
-              <a href={`mailto:${site.email}`} className="hover:text-cream">
+              <a
+                href={`mailto:${site.email}`}
+                className="inline-flex min-h-9 items-center hover:text-cream sm:min-h-0"
+              >
                 {site.email}
               </a>
             </li>

@@ -63,7 +63,7 @@ export function Leadership() {
                         reversed ? 'right-5' : 'left-5'
                       }`}
                     >
-                      <p className="text-[0.6rem] font-semibold tracking-[0.2em] text-brand uppercase">
+                      <p className="text-[0.7rem] font-semibold tracking-[0.2em] text-brand uppercase">
                         {leader.role}
                       </p>
                       <p className="font-display text-lg text-ink">{leader.name}</p>
@@ -71,7 +71,7 @@ export function Leadership() {
                   </div>
 
                   <div>
-                    <p className="text-[0.65rem] font-semibold tracking-[0.24em] text-brand uppercase">
+                    <p className="text-[0.7rem] font-semibold tracking-[0.24em] text-brand uppercase">
                       {leader.role}
                     </p>
                     <h3 className="mt-2 text-3xl text-ink sm:text-4xl">{leader.name}</h3>
@@ -103,7 +103,7 @@ export function Leadership() {
             <blockquote className="mt-6 font-display text-2xl leading-snug text-cream sm:text-4xl">
               “Talent may open doors, but character sustains them.”
             </blockquote>
-            <p className="mt-5 text-[0.65rem] font-semibold tracking-[0.24em] text-gold-soft uppercase">
+            <p className="mt-5 text-[0.7rem] font-semibold tracking-[0.24em] text-gold-soft uppercase">
               Rev. Nana Yaw Aikins
             </p>
           </Reveal>

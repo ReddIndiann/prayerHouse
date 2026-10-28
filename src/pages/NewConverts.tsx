@@ -70,7 +70,7 @@ export function NewConverts() {
                   “Therefore, if anyone is in Christ, the new creation has come: the old has gone,
                   the new is here!”
                 </p>
-                <footer className="mt-3 text-[0.68rem] font-semibold tracking-[0.2em] text-muted uppercase">
+                <footer className="mt-3 text-[0.72rem] font-semibold tracking-[0.2em] text-muted uppercase">
                   2 Corinthians 5:17
                 </footer>
               </blockquote>
@@ -130,7 +130,7 @@ export function NewConverts() {
                         <Sparkles className="size-4" aria-hidden="true" />
                       </span>
                       <div>
-                        <p className="text-[0.62rem] font-semibold tracking-[0.2em] text-brand uppercase">
+                        <p className="text-[0.7rem] font-semibold tracking-[0.2em] text-brand uppercase">
                           Tell us your story
                         </p>
                         <h2 className="text-xl text-ink">I made a decision today</h2>
@@ -199,7 +199,7 @@ export function NewConverts() {
                       <button type="submit" className="btn-primary w-full">
                         Connect with a leader <ArrowRight className="size-4" />
                       </button>
-                      <p className="text-center text-[0.68rem] leading-relaxed text-muted">
+                      <p className="text-center text-[0.72rem] leading-relaxed text-muted">
                         We will only use your details to follow up on your decision. Your
                         information is kept confidential.
                       </p>

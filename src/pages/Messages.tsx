@@ -66,7 +66,7 @@ export function Messages() {
                   className="aspect-video w-full object-cover transition duration-700 group-hover:scale-[1.03]"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/25 to-transparent" />
-                <span className="absolute top-5 left-5 rounded-full bg-brand px-3 py-1.5 text-[0.6rem] font-semibold tracking-[0.16em] uppercase">
+                <span className="absolute top-5 left-5 rounded-full bg-brand px-3 py-1.5 text-[0.7rem] font-semibold tracking-[0.16em] uppercase">
                   Latest
                 </span>
                 <span className="absolute top-1/2 left-1/2 grid size-16 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-cream/95 text-brand transition group-hover:scale-110">
@@ -123,7 +123,7 @@ export function Messages() {
                   type="button"
                   onClick={() => setCategory(item)}
                   aria-pressed={category === item}
-                  className={`rounded-full border px-4 py-2 text-[0.7rem] font-semibold tracking-[0.1em] uppercase transition ${
+                  className={`inline-flex min-h-9 items-center rounded-full border px-4 py-2 text-[0.7rem] font-semibold tracking-[0.1em] uppercase transition ${
                     category === item
                       ? 'border-brand bg-brand text-cream'
                       : 'border-line bg-cream text-ink-soft hover:border-brand/40 hover:text-brand'
@@ -157,7 +157,7 @@ export function Messages() {
                     </span>
                   </div>
                   <div className="p-5">
-                    <p className="text-[0.6rem] font-semibold tracking-[0.16em] text-brand uppercase">
+                    <p className="text-[0.7rem] font-semibold tracking-[0.16em] text-brand uppercase">
                       {sermon.category}
                     </p>
                     <h3 className="mt-2 line-clamp-2 text-lg leading-snug text-ink">

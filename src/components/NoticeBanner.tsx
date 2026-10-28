@@ -22,7 +22,7 @@ export function NoticeBanner() {
   return (
     <div className="border-b border-gold/30 bg-sand/80">
       <Container className="flex items-start gap-4 py-3.5 sm:items-center">
-        <span className="mt-0.5 inline-flex shrink-0 items-center gap-2 rounded-full bg-brand/10 px-3 py-1 text-[0.62rem] font-semibold tracking-[0.18em] text-brand uppercase sm:mt-0">
+        <span className="mt-0.5 inline-flex shrink-0 items-center gap-2 rounded-full bg-brand/10 px-3 py-1 text-[0.7rem] font-semibold tracking-[0.18em] text-brand uppercase sm:mt-0">
           Notice
         </span>
         <p className="flex-1 text-[0.82rem] leading-relaxed text-ink-soft">

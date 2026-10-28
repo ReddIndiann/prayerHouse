@@ -86,7 +86,7 @@ export function Contact() {
                 <span className="grid size-10 place-items-center rounded-full bg-brand/10 text-brand">
                   <item.icon className="size-4" aria-hidden="true" />
                 </span>
-                <p className="mt-3 text-[0.62rem] font-semibold tracking-[0.2em] text-muted uppercase">
+                <p className="mt-3 text-[0.7rem] font-semibold tracking-[0.2em] text-muted uppercase">
                   {item.label}
                 </p>
                 {item.href ? (
@@ -231,7 +231,7 @@ export function Contact() {
                     <button type="submit" className="btn-primary w-full">
                       Send message <Send className="size-4" />
                     </button>
-                    <p className="text-center text-[0.68rem] leading-relaxed text-muted">
+                    <p className="text-center text-[0.72rem] leading-relaxed text-muted">
                       By sending this message you agree that we may contact you about your enquiry.
                     </p>
                   </form>

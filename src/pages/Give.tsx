@@ -85,7 +85,7 @@ export function Give() {
                   “Each of you should give what you have decided in your heart to give, not
                   reluctantly or under compulsion, for God loves a cheerful giver.”
                 </p>
-                <footer className="mt-3 text-[0.68rem] font-semibold tracking-[0.2em] text-muted uppercase">
+                <footer className="mt-3 text-[0.72rem] font-semibold tracking-[0.2em] text-muted uppercase">
                   2 Corinthians 9:7
                 </footer>
               </blockquote>
@@ -113,7 +113,7 @@ export function Give() {
               <div className="rounded-[2rem] border border-line bg-white p-6 shadow-lift sm:p-8">
                 <div className="flex items-center justify-between gap-4">
                   <div>
-                    <p className="text-[0.62rem] font-semibold tracking-[0.22em] text-brand uppercase">
+                    <p className="text-[0.7rem] font-semibold tracking-[0.22em] text-brand uppercase">
                       Give online
                     </p>
                     <h2 className="mt-1.5 text-2xl text-ink">Make a gift</h2>
@@ -122,7 +122,7 @@ export function Give() {
                 </div>
 
                 <div className="mt-6">
-                  <p className="text-[0.68rem] font-semibold tracking-[0.14em] text-muted uppercase">
+                  <p className="text-[0.72rem] font-semibold tracking-[0.14em] text-muted uppercase">
                     Frequency
                   </p>
                   <div className="mt-2 grid grid-cols-2 gap-2 rounded-full bg-sand/70 p-1">
@@ -148,7 +148,7 @@ export function Give() {
                 </div>
 
                 <div className="mt-6">
-                  <p className="text-[0.68rem] font-semibold tracking-[0.14em] text-muted uppercase">
+                  <p className="text-[0.72rem] font-semibold tracking-[0.14em] text-muted uppercase">
                     Amount (EUR)
                   </p>
                   <div className="mt-2 grid grid-cols-4 gap-2">
@@ -208,7 +208,7 @@ export function Give() {
                 >
                   Continue to secure giving <ArrowUpRight className="size-4" />
                 </a>
-                <p className="mt-3 text-center text-[0.68rem] leading-relaxed text-muted">
+                <p className="mt-3 text-center text-[0.72rem] leading-relaxed text-muted">
                   You will be redirected to our official giving page to complete the gift securely.
                 </p>
 

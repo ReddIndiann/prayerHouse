@@ -114,7 +114,7 @@ export function About() {
                     className="relative pb-8 pl-8 last:pb-0"
                   >
                     <span className="absolute top-1.5 -left-[5px] size-2.5 rounded-full bg-brand ring-4 ring-cream" />
-                    <p className="text-[0.62rem] font-semibold tracking-[0.22em] text-brand uppercase">
+                    <p className="text-[0.7rem] font-semibold tracking-[0.22em] text-brand uppercase">
                       {item.year}
                     </p>
                     <h3 className="mt-2 text-xl text-ink">{item.title}</h3>
@@ -175,7 +175,7 @@ export function About() {
                   role="tab"
                   aria-selected={language === code}
                   onClick={() => setLanguage(code)}
-                  className={`rounded-full px-4 py-2 text-[0.7rem] font-semibold tracking-[0.12em] uppercase transition ${
+                  className={`inline-flex min-h-9 items-center rounded-full px-4 py-2 text-[0.7rem] font-semibold tracking-[0.12em] uppercase transition ${
                     language === code
                       ? 'bg-brand text-cream'
                       : 'text-muted hover:text-brand'
@@ -212,7 +212,7 @@ export function About() {
             {stats.map((stat) => (
               <div key={stat.label}>
                 <p className="font-display text-3xl text-brand sm:text-4xl">{stat.value}</p>
-                <p className="mt-1.5 text-[0.65rem] font-semibold tracking-[0.14em] text-muted uppercase">
+                <p className="mt-1.5 text-[0.7rem] font-semibold tracking-[0.14em] text-muted uppercase">
                   {stat.label}
                 </p>
               </div>
@@ -237,7 +237,7 @@ export function About() {
               “Pray! And listen to God! You can do this alone, but find somebody to do it with
               you.”
             </blockquote>
-            <p className="mt-5 text-[0.65rem] font-semibold tracking-[0.24em] text-gold uppercase">
+            <p className="mt-5 text-[0.7rem] font-semibold tracking-[0.24em] text-gold uppercase">
               The heart of Prayer House
             </p>
           </Reveal>
@@ -270,7 +270,7 @@ export function About() {
                       loading="lazy"
                     />
                   </div>
-                  <p className="mt-4 text-[0.62rem] font-semibold tracking-[0.18em] text-brand uppercase">
+                  <p className="mt-4 text-[0.7rem] font-semibold tracking-[0.18em] text-brand uppercase">
                     {leader.role}
                   </p>
                   <h3 className="mt-1 text-xl text-ink">{leader.name}</h3>

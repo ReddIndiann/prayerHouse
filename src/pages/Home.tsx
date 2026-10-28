@@ -84,7 +84,7 @@ export function Home() {
               className="animate-rise rounded-3xl border border-cream/15 bg-cream/10 p-6 backdrop-blur-md sm:p-7"
               style={{ animationDelay: '220ms' }}
             >
-              <p className="text-[0.62rem] font-semibold tracking-[0.26em] text-gold-soft uppercase">
+              <p className="text-[0.7rem] font-semibold tracking-[0.26em] text-gold-soft uppercase">
                 Join us this Sunday
               </p>
               <p className="mt-3 font-display text-5xl text-cream">11:00</p>
@@ -138,7 +138,7 @@ export function Home() {
                 />
               </div>
               <div className="absolute -top-5 -left-4 rounded-2xl bg-brand px-5 py-4 text-cream shadow-lift sm:-left-6">
-                <p className="text-[0.6rem] font-semibold tracking-[0.22em] text-gold-soft uppercase">
+                <p className="text-[0.7rem] font-semibold tracking-[0.22em] text-gold-soft uppercase">
                   Since
                 </p>
                 <p className="font-display text-3xl">1997</p>
@@ -173,7 +173,7 @@ export function Home() {
                 </Link>
                 <div>
                   <p className="font-script text-3xl text-ink">Nana Yaw & Maddy Aikins</p>
-                  <p className="text-[0.65rem] font-semibold tracking-[0.2em] text-muted uppercase">
+                  <p className="text-[0.7rem] font-semibold tracking-[0.2em] text-muted uppercase">
                     Founders
                   </p>
                 </div>
@@ -254,7 +254,7 @@ export function Home() {
               <div className="mt-8 rounded-3xl bg-brand-dark p-6 text-cream sm:p-8">
                 <div className="flex items-center gap-3">
                   <CalendarDays className="size-5 text-gold" aria-hidden="true" />
-                  <p className="text-[0.62rem] font-semibold tracking-[0.22em] text-gold-soft uppercase">
+                  <p className="text-[0.7rem] font-semibold tracking-[0.22em] text-gold-soft uppercase">
                     Temporary schedule
                   </p>
                 </div>
@@ -286,7 +286,7 @@ export function Home() {
                 >
                   <div className="flex items-center gap-4">
                     <span
-                      className={`grid size-12 shrink-0 place-items-center rounded-full text-[0.6rem] font-bold tracking-[0.12em] uppercase ${
+                      className={`grid size-12 shrink-0 place-items-center rounded-full text-[0.7rem] font-bold tracking-[0.12em] uppercase ${
                         item.primary ? 'bg-brand text-cream' : 'bg-sand text-ink-soft'
                       }`}
                     >
@@ -334,7 +334,7 @@ export function Home() {
                   loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/30 to-transparent" />
-                <span className="absolute top-5 left-5 rounded-full bg-brand px-3 py-1.5 text-[0.6rem] font-semibold tracking-[0.16em] uppercase">
+                <span className="absolute top-5 left-5 rounded-full bg-brand px-3 py-1.5 text-[0.7rem] font-semibold tracking-[0.16em] uppercase">
                   {featured.category}
                 </span>
                 <span className="absolute top-1/2 left-1/2 grid size-16 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-cream/95 text-brand transition group-hover:scale-110">
@@ -371,7 +371,7 @@ export function Home() {
                       </span>
                     </span>
                     <span className="min-w-0">
-                      <span className="block text-[0.6rem] font-semibold tracking-[0.16em] text-gold uppercase">
+                      <span className="block text-[0.7rem] font-semibold tracking-[0.16em] text-gold uppercase">
                         {sermon.category}
                       </span>
                       <span className="mt-1 block line-clamp-2 text-sm font-medium text-cream">
@@ -384,7 +384,7 @@ export function Home() {
               ))}
 
               <Reveal delay={240} className="mt-2 rounded-2xl border border-gold/25 bg-gold/5 p-5">
-                <p className="flex items-center gap-2 text-[0.62rem] font-semibold tracking-[0.2em] text-gold uppercase">
+                <p className="flex items-center gap-2 text-[0.7rem] font-semibold tracking-[0.2em] text-gold uppercase">
                   <Sparkles className="size-3.5" /> Podcast
                 </p>
                 <p className="mt-2 text-sm text-cream/70">
@@ -453,7 +453,7 @@ export function Home() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/25 to-transparent opacity-90" />
                   <div className="absolute inset-x-0 bottom-0 p-5">
-                    <p className="text-[0.6rem] font-semibold tracking-[0.18em] text-gold uppercase">
+                    <p className="text-[0.7rem] font-semibold tracking-[0.18em] text-gold uppercase">
                       Ministry
                     </p>
                     <h3 className="mt-1.5 text-xl text-cream">{ministry.name}</h3>

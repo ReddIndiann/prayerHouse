@@ -6,7 +6,7 @@ import { Container } from './Container'
 import { navLinks, resourceLinks, site } from '../data/site'
 
 function navClass({ isActive }: { isActive: boolean }) {
-  return `relative py-2 text-[0.82rem] font-medium tracking-wide transition-colors ${
+  return `relative py-3 text-[0.82rem] font-medium tracking-wide whitespace-nowrap transition-colors ${
     isActive ? 'text-brand' : 'text-ink-soft hover:text-brand'
   }`
 }
@@ -51,7 +51,7 @@ export function Header() {
               href={site.mapsUrl}
               target="_blank"
               rel="noreferrer"
-              className="hidden items-center gap-1.5 transition hover:text-gold-soft sm:inline-flex"
+              className="hidden h-10 items-center gap-1.5 transition hover:text-gold-soft sm:inline-flex"
             >
               <MapPin className="size-3.5 text-gold" aria-hidden="true" />
               {site.address.street}, {site.address.city}
@@ -60,14 +60,14 @@ export function Header() {
           <div className="flex items-center gap-5">
             <a
               href={site.phoneHref}
-              className="hidden items-center gap-1.5 transition hover:text-gold-soft md:inline-flex"
+              className="hidden h-10 items-center gap-1.5 transition hover:text-gold-soft md:inline-flex"
             >
               <Phone className="size-3.5 text-gold" aria-hidden="true" />
               {site.phone}
             </a>
             <a
               href={`mailto:${site.email}`}
-              className="inline-flex items-center gap-1.5 transition hover:text-gold-soft"
+              className="inline-flex h-10 items-center gap-1.5 transition hover:text-gold-soft"
             >
               <Mail className="size-3.5 text-gold" aria-hidden="true" />
               <span className="hidden sm:inline">{site.email}</span>
@@ -87,7 +87,7 @@ export function Header() {
             <BrandMark />
           </Link>
 
-          <nav aria-label="Main" className="hidden items-center gap-7 lg:flex">
+          <nav aria-label="Main" className="hidden items-center gap-4 lg:flex xl:gap-7">
             {navLinks.slice(0, 5).map((link) => (
               <NavLink key={link.to} to={link.to} end={link.to === '/'} className={navClass}>
                 {({ isActive }) => (
@@ -106,7 +106,7 @@ export function Header() {
             <div className="group relative">
               <button
                 type="button"
-                className="inline-flex items-center gap-1 py-2 text-[0.82rem] font-medium tracking-wide text-ink-soft transition-colors group-hover:text-brand group-focus-within:text-brand"
+                className="inline-flex items-center gap-1 py-3 text-[0.82rem] font-medium tracking-wide whitespace-nowrap text-ink-soft transition-colors group-hover:text-brand group-focus-within:text-brand"
                 aria-haspopup="true"
               >
                 Resources
