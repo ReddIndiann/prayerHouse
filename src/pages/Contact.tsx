@@ -94,7 +94,7 @@ export function Contact() {
                     href={item.href}
                     target={item.external ? '_blank' : undefined}
                     rel={item.external ? 'noreferrer' : undefined}
-                    className="mt-1 block text-sm font-medium text-ink transition hover:text-brand"
+                    className="mt-1 flex min-h-9 items-center text-sm font-medium text-ink transition hover:text-brand"
                   >
                     {item.value}
                   </a>

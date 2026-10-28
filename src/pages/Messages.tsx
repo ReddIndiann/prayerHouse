@@ -181,7 +181,7 @@ export function Messages() {
               href={youtubeWatch(featured.videoId)}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center gap-2 font-semibold text-brand"
+              className="tap-expand inline-flex items-center gap-2 font-semibold text-brand"
             >
               Watch the latest on YouTube <ArrowUpRight className="size-4" />
             </a>

@@ -82,7 +82,7 @@ export function Header() {
           scrolled ? 'border-line shadow-soft' : 'border-transparent'
         }`}
       >
-        <Container className="flex h-20 items-center justify-between gap-6">
+        <Container className="flex h-20 items-center justify-between gap-3 sm:gap-6">
           <Link to="/" className="shrink-0">
             <BrandMark />
           </Link>

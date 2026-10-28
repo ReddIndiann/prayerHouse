@@ -122,9 +122,14 @@
   }
 
   /* Expand the tap area of text-only calls to action without moving them. */
-  .link-underline::before {
+  .link-underline::before,
+  .tap-expand::before {
     content: '';
     @apply absolute -inset-x-2 -inset-y-3;
+  }
+
+  .tap-expand {
+    @apply relative;
   }
 }
 

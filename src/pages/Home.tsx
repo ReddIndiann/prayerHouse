@@ -107,7 +107,7 @@ export function Home() {
                 href={site.mapsUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-gold-soft transition hover:text-cream"
+                className="tap-expand mt-6 inline-flex items-center gap-2 text-sm font-semibold text-gold-soft transition hover:text-cream"
               >
                 Get directions <ArrowUpRight className="size-4" />
               </a>
@@ -224,7 +224,7 @@ export function Home() {
                   <p className="mt-3 flex-1 text-sm leading-relaxed text-muted">{value.body}</p>
                   <Link
                     to={value.to}
-                    className="mt-6 inline-flex items-center gap-2 text-[0.78rem] font-semibold text-brand"
+                    className="tap-expand mt-6 inline-flex items-center gap-2 text-[0.78rem] font-semibold text-brand"
                   >
                     {value.link}
                     <ArrowRight className="size-3.5 transition-transform group-hover:translate-x-1" />
@@ -392,7 +392,7 @@ export function Home() {
                 </p>
                 <Link
                   to="/messages"
-                  className="mt-3 inline-flex items-center gap-2 text-sm font-semibold text-gold-soft hover:text-cream"
+                  className="tap-expand mt-3 inline-flex items-center gap-2 text-sm font-semibold text-gold-soft hover:text-cream"
                 >
                   Listen now <ArrowRight className="size-4" />
                 </Link>

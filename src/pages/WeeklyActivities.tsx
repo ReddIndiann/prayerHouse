@@ -177,7 +177,7 @@ export function WeeklyActivities() {
                       href={site.mapsUrl}
                       target="_blank"
                       rel="noreferrer"
-                      className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-brand"
+                      className="tap-expand mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-brand"
                     >
                       Open in Google Maps <ArrowRight className="size-3.5" />
                     </a>

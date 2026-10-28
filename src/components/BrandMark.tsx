@@ -41,13 +41,13 @@ export function BrandMark({
       </span>
       <span className="flex flex-col leading-none">
         <span
-          className={`font-display text-[1.35rem] tracking-tight ${isLight ? 'text-cream' : 'text-ink'}`}
+          className={`font-display text-[1.22rem] tracking-tight sm:text-[1.35rem] ${isLight ? 'text-cream' : 'text-ink'}`}
         >
           Prayer House
         </span>
         {!compact && (
           <span
-            className={`mt-1 text-[0.66rem] font-semibold tracking-[0.26em] uppercase ${
+            className={`mt-1 text-[0.62rem] font-semibold tracking-[0.24em] whitespace-nowrap uppercase sm:text-[0.66rem] sm:tracking-[0.26em] ${
               isLight ? 'text-cream/55' : 'text-muted'
             }`}
           >
